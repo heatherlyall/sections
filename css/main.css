@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+font-family: 'Lato', sans-serif;
+color: #333;
+line-height: 1.5;
+margin: 1.5rem;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  padding: 1em;
+}
+img {
+max-width: 25rem
+}
+
+ p {
+   display: block;
+  text-align: center;
+  padding: 2em
+}
+
+a {
+  text-align: center;
+  display: inline-block;
+  margin: 1.5em;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+  border-radius: 5px
+}
+
+
+a:hover {
+  background-color: #666
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
